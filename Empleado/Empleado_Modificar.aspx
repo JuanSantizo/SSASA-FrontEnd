@@ -22,39 +22,39 @@
         <asp:TextBox ID="txtApellido" runat="server" CssClass="form-control"></asp:TextBox>
     </div>
 
-     <div class="mb-3">
-     <label class="form-label">Sexo</label>
-     <asp:DropDownList ID="ddlSexo" runat="server" CssClass="form-select"></asp:DropDownList>
- </div>
-     <div class="mb-3">
-     <label class="form-label">Ingreso</label>
-     <asp:TextBox ID="txtDateIngreso" runat="server" CssClass="form-control" TextMode="Date"></asp:TextBox>
- </div>
+    <div class="mb-3">
+        <label class="form-label">Sexo</label>
+        <asp:DropDownList ID="ddlSexo" runat="server" CssClass="form-select"></asp:DropDownList>
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Ingreso</label>
+        <asp:TextBox ID="txtDateIngreso" runat="server" CssClass="form-control" TextMode="Date"></asp:TextBox>
+    </div>
 
-     <div class="mb-3">
-     <label class="form-label">Nacimiento</label>
-    <asp:TextBox ID="txtDateNacimiento" runat="server" CssClass="form-control" TextMode="Date"></asp:TextBox>
- </div>
+    <div class="mb-3">
+        <label class="form-label">Nacimiento</label>
+        <asp:TextBox ID="txtDateNacimiento" runat="server" CssClass="form-control" TextMode="Date"></asp:TextBox>
+    </div>
 
-     <div class="mb-3">
-     <label class="form-label">Edad</label>
-     <asp:TextBox ID="txtEdad" runat="server" CssClass="form-control" ReadOnly></asp:TextBox>
- </div>
+    <div class="mb-3">
+        <label class="form-label">Edad</label>
+        <asp:TextBox ID="txtEdad" runat="server" CssClass="form-control" ReadOnly></asp:TextBox>
+    </div>
 
-     <div class="mb-3">
-     <label class="form-label">Direccion</label>
-     <asp:TextBox ID="txtDireccion" runat="server" CssClass="form-control"></asp:TextBox>
- </div>
+    <div class="mb-3">
+        <label class="form-label">Direccion</label>
+        <asp:TextBox ID="txtDireccion" runat="server" CssClass="form-control"></asp:TextBox>
+    </div>
 
-     <div class="mb-3">
-     <label class="form-label">Nit</label>
-     <asp:TextBox ID="txtNit" runat="server" CssClass="form-control"></asp:TextBox>
- </div>
+    <div class="mb-3">
+        <label class="form-label">Nit</label>
+        <asp:TextBox ID="txtNit" runat="server" CssClass="form-control"></asp:TextBox>
+    </div>
 
-     <div class="mb-3">
-     <label class="form-label">Departamento</label>
-     <asp:DropDownList ID="ddlDepartamento" runat="server" CssClass="form-select"></asp:DropDownList>
- </div>
+    <div class="mb-3">
+        <label class="form-label">Departamento</label>
+        <asp:DropDownList ID="ddlDepartamento" runat="server" CssClass="form-select"></asp:DropDownList>
+    </div>
 
     <div class="mb-3">
         <label class="form-label">Estado</label>

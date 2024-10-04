@@ -1,5 +1,8 @@
 ﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="FrameWork.SiteMaster" %>
 
+<!-- Update version to 15.0.0.0 -->
+<%@ Register assembly="Microsoft.ReportViewer.WebForms, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" namespace="Microsoft.Reporting.WebForms" tagprefix="rsweb" %>
+
 <!DOCTYPE html>
 
 <html lang="es">
@@ -50,7 +53,7 @@
                         <li class="nav-item"><a class="nav-link" runat="server" href="~/">Inicio</a></li>
                         <li class="nav-item"><a class="nav-link" runat="server" href="~/Departamento/Departamento_Listado">Departamentos</a></li>
                         <li class="nav-item"><a class="nav-link" runat="server" href="~/Empleado/Empleado_Listado">Empleados</a></li>
-                        <li class="nav-item"><a class="nav-link" runat="server" href="~/Contact">Reportes</a></li>
+                        <li class="nav-item"><a class="nav-link" runat="server" href="~/Reporte/Reporte">Reportes</a></li>
                     </ul>
                 </div>
             </div>
